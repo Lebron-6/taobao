@@ -1,0 +1,93 @@
+body,p,h1,h2,h3,h4,ul{
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+img{
+    border: none;
+    /* IE浏览器中会显示body */
+    vertical-align: middle;
+    /* 垂直方向上跟文字的对齐 */
+}
+a{
+    text-decoration: none;
+    /* 下划线 */
+    color: #3c3c3c;
+}
+i{
+    font-style: normal; 
+    /* 斜体 */
+}
+input,button{
+    margin: 0;
+    padding: 0;
+}
+button{
+    outline: none;
+}
+table{
+    border-collapse: collapse;  /* 边框模式，合并的模式 */
+}
+th,td{
+    padding: 0;
+}
+
+body{
+    font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+    /* 考虑到子元素继承的问题 行高不推荐写百分比 */
+
+    /* font-family: '宋体';
+    font-family: '\5b8b\4f53';
+    font-family: SimSun;
+
+    font-family: "微软雅黑";
+    font-family: Miscrosoft YaHei; */
+
+    color: #3c3c3c;
+    background-color: #f4f4f4;
+}
+
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+
+.layer{
+    width: 1190px;
+    margin: 0 auto;
+}
+
+.c4{
+    color: #f40;
+}
+.c5{
+    color: #f50;
+}
+.c6{
+    color: #8d7afb;
+}
+.c7{
+    color: #a8c001;
+}
+.mr7{
+    margin-right: 7px;
+}
+.mr5{
+    margin-right: 5px;
+}
+.mt10{
+    margin-top: 10px;
+}
+.mr10{
+    margin-right: 10px;
+}
